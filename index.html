@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ghazl - Bahraini youth-led initiative transforming ocean waste into meaningful, eco-conscious products. From discarded fishing nets to sustainable living.">
+    <title>Ghazl | From Ocean Waste to Meaningful Living</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="static/ghazlwhite.svg">
+    <link rel="icon" href="static/ghazlwhite.svg">
+    <link rel="apple-touch-icon" href="static/ghazlwhite.svg">
+    
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="static/ghazlwhite.svg" alt="Ghazl" class="loader-logo">
+            <div class="loader-progress">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="static/ghazlwhite.svg" alt="Ghazl" class="nav-logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#story" class="nav-link">Our Story</a></li>
+                <li><a href="#process" class="nav-link">The Process</a></li>
+                <li><a href="#collection" class="nav-link">Collection</a></li>
+                <li><a href="#impact" class="nav-link">Impact</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Join the Movement</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-media">
+            <video autoplay muted loop playsinline preload="auto" class="hero-video" poster="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1920&q=80">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-waves-breaking-on-the-beach-1190-large.mp4" type="video/mp4">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-water-1164-large.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-logo-bg">
+                <img src="static/ghazlwhite.svg" alt="" class="hero-logo-watermark">
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>Bahraini Youth-Led Initiative</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">From Ocean Waste</span>
+                <span class="title-line highlight">to Meaningful Living</span>
+            </h1>
+            <p class="hero-description">
+                We transform abandoned fishing nets from the Arabian Gulf into 
+                beautiful, sustainable products that protect our oceans.
+            </p>
+            <div class="hero-actions">
+                <a href="#collection" class="btn btn-primary">
+                    <span>Explore Collection</span>
+                    <i data-lucide="arrow-right"></i>
+                </a>
+                <a href="#story" class="btn btn-ghost">
+                    <span>Our Story</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="section-bg-decor">
+            <img src="static/net2.svg" alt="" class="bg-net" style="left: -5%; top: 15%; width: 70vw; max-width: 1200px; opacity: 0.06;">
+            <img src="static/ghazlwithArabic.svg" alt="" class="bg-logo" style="right: -10%; bottom: 20%; width: 50vw; opacity: 0.05;">
+        </div>
+        <div class="story-intro">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">The Challenge</span>
+                    <h2 class="section-title">Our Oceans Need Us</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="story-problem">
+            <div class="container">
+                <div class="problem-grid">
+                    <div class="problem-card" data-magnetic>
+                        <div class="problem-icon">
+                            <i data-lucide="anchor"></i>
+                        </div>
+                        <h3>Ghost Nets</h3>
+                        <p>Abandoned fishing nets drift through our oceans, trapping marine life and devastating ecosystems.</p>
+                    </div>
+                    <div class="problem-card" data-magnetic>
+                        <div class="problem-icon">
+                            <i data-lucide="fish-off"></i>
+                        </div>
+                        <h3>Marine Harm</h3>
+                        <p>Every year, countless sea creatures become entangled in discarded nets along our coasts.</p>
+                    </div>
+                    <div class="problem-card" data-magnetic>
+                        <div class="problem-icon">
+                            <i data-lucide="timer"></i>
+                        </div>
+                        <h3>500+ Years</h3>
+                        <p>Synthetic fishing nets take centuries to decompose, polluting waters for generations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="story-solution">
+            <div class="solution-visual">
+                <div class="visual-wrapper">
+                    <img src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=1200&q=80" alt="Ocean cleanup" class="solution-image">
+                </div>
+            </div>
+            <div class="solution-content">
+                <span class="section-tag">Our Answer</span>
+                <h3>Transformation, Not Waste</h3>
+                <p>
+                    Ghazl was born from a simple belief: ocean waste doesn't have to stay that way. 
+                    Founded by Bahraini youth who grew up on these shores, we saw the problem washing 
+                    up on our beaches and decided to create a solution.
+                </p>
+                <p>
+                    We collect abandoned fishing nets from the Arabian Gulf, clean and process them, 
+                    and transform them into meaningful products you can hold in your hands.
+                </p>
+                <div class="solution-values">
+                    <div class="value">
+                        <i data-lucide="map-pin"></i>
+                        <span>Proudly Bahraini</span>
+                    </div>
+                    <div class="value">
+                        <i data-lucide="recycle"></i>
+                        <span>100% Upcycled</span>
+                    </div>
+                    <div class="value">
+                        <i data-lucide="users"></i>
+                        <span>Youth-Led</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="section-bg-decor">
+            <img src="static/net2.svg" alt="" class="bg-net bg-net-left">
+            <img src="static/ghazlArabicOnlyLong.svg" alt="" class="bg-logo bg-logo-right">
+        </div>
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">The Journey</span>
+                <h2 class="section-title">From Net to New Life</h2>
+                <p class="section-desc">Every Ghazl product tells a story of transformation.</p>
+            </div>
+        </div>
+        
+        <div class="process-timeline">
+            <div class="timeline-track">
+                <div class="timeline-progress" id="timelineProgress"></div>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?w=800&q=80" alt="Beach collection">
+                        </div>
+                        <div class="step-info">
+                            <h3>Collection</h3>
+                            <p>Our team works with local fishermen and organizes coastal cleanups to recover abandoned nets from Bahrain's beaches.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Cleaning process">
+                        </div>
+                        <div class="step-info">
+                            <h3>Cleaning & Sorting</h3>
+                            <p>Each net is carefully cleaned of ocean debris, sorted by material type, and prepared for transformation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80" alt="Crafting">
+                        </div>
+                        <div class="step-info">
+                            <h3>Transformation</h3>
+                            <p>Using traditional weaving techniques and modern design, we reshape the nets into beautiful, functional products.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="Final product">
+                        </div>
+                        <div class="step-info">
+                            <h3>New Purpose</h3>
+                            <p>What was once ocean waste becomes a meaningful item—each product carries the memory of the sea.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="collection" id="collection">
+        <div class="collection-bg">
+            <img src="static/netsgahzl.svg" alt="" class="collection-net">
+            <img src="static/ghazlwithArabic.svg" alt="" class="collection-logo-accent">
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Collection</span>
+                <h2 class="section-title">Ocean Stories, Reimagined</h2>
+                <p class="section-desc">Each piece is unique—crafted from real fishing nets with textures shaped by the sea.</p>
+            </div>
+            
+            <div class="products-grid">
+                <article class="product-card featured">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1614715615170-92ff100dc547?w=600&q=80" alt="Wave Keychain">
+                    </div>
+                    <div class="product-info">
+                        <h3>Wave Keychain</h3>
+                        <p>A daily reminder that small actions create ripples of change.</p>
+                        <div class="product-footer">
+                            <span class="product-material">100% Recycled Net</span>
+                            <span class="product-price">8 BHD</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80" alt="Coastal Tote">
+                    </div>
+                    <div class="product-info">
+                        <h3>Coastal Tote</h3>
+                        <p>Carry your essentials—and a piece of ocean rescue.</p>
+                        <div class="product-footer">
+                            <span class="product-material">Woven Net Fiber</span>
+                            <span class="product-price">25 BHD</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80" alt="Tide Plant Holder">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tide Plant Holder</h3>
+                        <p>Where ocean meets earth—a macrame-style hanging planter.</p>
+                        <div class="product-footer">
+                            <span class="product-material">Hand-Knotted Net</span>
+                            <span class="product-price">18 BHD</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&q=80" alt="Gulf Bracelet">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gulf Bracelet</h3>
+                        <p>Wear the ocean on your wrist. Adjustable, lightweight, meaningful.</p>
+                        <div class="product-footer">
+                            <span class="product-material">Braided Net Cord</span>
+                            <span class="product-price">5 BHD</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&q=80" alt="Horizon Wall Piece">
+                    </div>
+                    <div class="product-info">
+                        <h3>Horizon Wall Piece</h3>
+                        <p>A textured art piece that brings coastal calm to any space.</p>
+                        <div class="product-footer">
+                            <span class="product-material">Layered Net Art</span>
+                            <span class="product-price">45 BHD</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card cta-card">
+                    <div class="cta-inner">
+                        <i data-lucide="waves"></i>
+                        <h3>More Coming Soon</h3>
+                        <p>New designs washing ashore.</p>
+                        <a href="#contact" class="btn btn-outline-light">Get Notified</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="collection-cta">
+                <a href="#" class="btn btn-primary btn-large">
+                    <span>Shop with Purpose</span>
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact" id="impact">
+        <div class="section-bg-decor">
+            <img src="static/ghazlwithArabic.svg" alt="" class="bg-logo bg-logo-center">
+            <img src="static/net2.svg" alt="" class="bg-net bg-net-right">
+        </div>
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Our Impact</span>
+                <h2 class="section-title">Every Purchase Makes Waves</h2>
+            </div>
+            
+            <div class="impact-stats">
+                <div class="impact-stat">
+                    <div class="stat-icon">
+                        <i data-lucide="scale"></i>
+                    </div>
+                    <div class="stat-number">
+                        <span class="stat-value" data-count="250">0</span>
+                        <span class="stat-unit">kg</span>
+                    </div>
+                    <div class="stat-label">Nets Collected</div>
+                </div>
+                
+                <div class="impact-stat">
+                    <div class="stat-icon">
+                        <i data-lucide="package"></i>
+                    </div>
+                    <div class="stat-number">
+                        <span class="stat-value" data-count="500">0</span>
+                        <span class="stat-unit">+</span>
+                    </div>
+                    <div class="stat-label">Products Created</div>
+                </div>
+                
+                <div class="impact-stat">
+                    <div class="stat-icon">
+                        <i data-lucide="map"></i>
+                    </div>
+                    <div class="stat-number">
+                        <span class="stat-value" data-count="15">0</span>
+                        <span class="stat-unit">km</span>
+                    </div>
+                    <div class="stat-label">Coastline Cleaned</div>
+                </div>
+                
+                <div class="impact-stat">
+                    <div class="stat-icon">
+                        <i data-lucide="heart-handshake"></i>
+                    </div>
+                    <div class="stat-number">
+                        <span class="stat-value" data-count="30">0</span>
+                        <span class="stat-unit">+</span>
+                    </div>
+                    <div class="stat-label">Youth Involved</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="impact-quote">
+            <div class="container">
+                <blockquote>
+                    <p>"Growing up in Bahrain, the sea was our playground. Seeing it filled with abandoned nets broke our hearts. Ghazl is our way of giving back to the waters that shaped us."</p>
+                    <footer>
+                        <cite>Ghazl Founding Team</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-bg-decor">
+            <img src="static/ghazlwhite.svg" alt="" class="bg-logo bg-logo-left">
+            <img src="static/net2.svg" alt="" class="bg-net bg-net-bottom">
+        </div>
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Join the Movement</span>
+                    <h2 class="section-title">Transform Ocean Waste With Us</h2>
+                    <p>Whether you're looking to shop consciously, collaborate, or learn more—we'd love to hear from you.</p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:hello@ghazl.bh" class="contact-link">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <span class="link-label">Email us</span>
+                                <span class="link-value">hello@ghazl.bh</span>
+                            </div>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <i data-lucide="instagram"></i>
+                            <div>
+                                <span class="link-label">Follow the journey</span>
+                                <span class="link-value">@ghazl.bh</span>
+                            </div>
+                        </a>
+                        <div class="contact-link">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <span class="link-label">Based in</span>
+                                <span class="link-value">Bahrain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" placeholder="How should we call you?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">I'm interested in...</label>
+                        <select id="interest" name="interest">
+                            <option value="">Select an option</option>
+                            <option value="products">Purchasing products</option>
+                            <option value="collaborate">Collaboration opportunities</option>
+                            <option value="volunteer">Volunteering / Beach cleanups</option>
+                            <option value="wholesale">Wholesale inquiries</option>
+                            <option value="other">Just saying hello</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us what's on your mind..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i data-lucide="send"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <video autoplay muted loop playsinline class="footer-wave-video">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-top-aerial-shot-of-seashore-702-large.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <img src="static/ghazlwhite.svg" alt="Ghazl">
+                    </a>
+                    <p>Transforming ocean waste into meaningful living. A Bahraini youth-led initiative for cleaner seas.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="TikTok"><i data-lucide="music-2"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="#story">Our Story</a></li>
+                            <li><a href="#process">The Process</a></li>
+                            <li><a href="#collection">Collection</a></li>
+                            <li><a href="#impact">Impact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Press Kit</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>2026 Ghazl. Made with love in Bahrain.</p>
+                <p class="footer-tagline">Every net has a story. Let's give it a happy ending.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+# GHAZL BRAND GUIDELINES
+*Transforming Ocean Waste into Meaningful Living*
+
+---
+
+## BRAND ESSENCE
+
+**Who We Are**
+Ghazl is a Bahraini youth-led sustainable initiative that gives discarded fishing nets a second life. We transform ocean waste into meaningful, eco-conscious products—from keychains to lifestyle items—that support cleaner seas and mindful living.
+
+**Our Mission**
+To transform abandoned fishing nets into sustainable products that protect the ocean and inspire responsible living.
+
+**Our Vision**
+A world where ocean waste is no longer pollution, but possibility, and where sustainable design is part of everyday life.
+
+**Core Values**
+- Ocean Protection & Environmental Stewardship
+- Youth-Led Innovation
+- Circular Economy & Upcycling
+- Bahraini Heritage & Local Pride
+- Mindful Consumption
+- Transparency & Authenticity
+
+---
+
+## BRAND PERSONALITY
+
+**Voice & Tone**
+- Optimistic yet grounded in reality
+- Passionate about ocean conservation without being preachy
+- Youthful and energetic, not juvenile
+- Educational but conversational
+- Proud of local Bahraini roots
+- Authentic and transparent about process and impact
+
+**Brand Adjectives**
+- Purposeful
+- Coastal
+- Transformative
+- Authentic
+- Fresh
+- Mindful
+- Innovative
+- Textured
+- Flowing
+- Resourceful
+
+---
+
+## VISUAL IDENTITY
+
+### Color Palette
+
+**Primary Color**
+- Cyan #22999f (Ocean Turquoise)
+  - Represents the Arabian Gulf waters
+  - Evokes coastal freshness and marine life
+  - Use for primary brand elements, CTAs, and key highlights
+
+**Secondary Colors**
+- Sandy Beige #F4E9DD (Beach Sand)
+  - Warmth and approachability
+  - Represents Bahrain's coastal beaches
+  
+- Ocean White #FFFFFF
+  - Clarity and purity
+  - Represents clean oceans and fresh starts
+  
+- Deep Teal #1A7278 (Darker accent)
+  - Depth and sophistication
+  - Use for text on light backgrounds, subtle accents
+
+**Accent Colors (Use Sparingly)**
+- Net White #F8F9FA (Off-white, like weathered fishing nets)
+- Coral Touch #FFB5A7 (Optional - for marine life references)
+- Seafoam #B8E3DC (Light accent for backgrounds)
+
+### Typography
+
+**Primary Font: Montserrat**
+- Headings: Montserrat Bold (700) / SemiBold (600)
+- Subheadings: Montserrat Medium (500)
+- Body Text: Montserrat Regular (400)
+- Light Text: Montserrat Light (300)
+
+**Font Pairing Suggestions**
+- For longer body content: Montserrat paired with Inter or Open Sans
+- For editorial feel: Montserrat headings with Source Serif Pro body
+
+**Typography Voice**
+- Clean and modern, not decorative
+- Spacious letter-spacing for headings (conveys ocean breathing room)
+- Comfortable line-height for readability (1.6-1.8 for body)
+- Sentence case preferred over ALL CAPS (feels more approachable)
+
+---
+
+## DESIGN AESTHETIC
+
+### Overall Design Philosophy: **Coastal Minimal**
+
+A fusion of minimal design principles with organic coastal elements—where extreme reduction meets the natural textures of ocean life. The design should breathe like ocean air, with maximum whitespace representing open water, punctuated by purposeful elements like nets breaking the surface.
+
+**Key Principles**
+- **Reduction with Purpose**: Every element must earn its place, like each knot in a fishing net serves a function
+- **Textured Minimalism**: Clean spaces interrupted by organic net textures, rope patterns, and wave-inspired shapes
+- **Flowing Geometry**: Organic curves that suggest waves, nets, and coastal landscapes
+- **Breathing Room**: Generous whitespace that evokes open ocean and beach horizons
+- **Tactile Digital**: Make the digital experience feel tangible—visitors should almost "feel" the net texture
+
+### Visual Themes & Textures
+
+**Primary Textures**
+- Fishing net patterns (subtle overlays, backgrounds, or section dividers)
+- Rope textures and knotwork
+- Ocean ripples and water reflections
+- Sandy gradients and beach textures
+- Wave-like flowing lines
+
+**Photography Style**
+- Coastal Bahrain landscapes (beaches, shallow waters, fishing boats)
+- Close-up product shots showing net texture detail
+- Process/workshop photos showing transformation
+- Environmental context (ocean waste problem → solution)
+- Bright, naturally lit, high contrast
+- Ocean blues and sandy tones emphasized
+
+**Illustration Style** (if used)
+- Line art of ocean creatures, nets, and coastal elements
+- Geometric interpretations of waves and fishing patterns
+- Minimal iconography with organic touches
+
+---
+
+## MOTION & INTERACTION
+
+**Animation Principles**
+- **Flowing & Organic**: Like water currents, not mechanical
+- **Gentle Arrivals**: Elements fade and float in like items washing ashore
+- **Wave-Like Scrolling**: Parallax effects that mimic ocean depth
+- **Net-Inspired Transitions**: Weaving patterns, interconnected movements
+- **Purposeful Pause**: Moments of stillness like calm waters between animations
+
+**Hover States**
+- Subtle color shifts (cyan intensifying)
+- Gentle scaling or lift effects
+- Ripple effects emanating from cursor
+- Texture reveals (net pattern becoming visible)
+
+**Micro-Interactions**
+- Buttons: Gentle wave ripple on click
+- Links: Underline that draws like a fishing line being cast
+- Image galleries: Drift/float effect like items in water
+- Loading states: Wave or net-weaving animations
+
+---
+
+## CONTENT GUIDELINES
+
+### Messaging Hierarchy
+
+**Hero Message**
+Focus on transformation and impact:
+- "From Ocean Waste to Meaningful Living"
+- "Turning Abandoned Nets into Purpose"
+- "Where Beach Cleanup Meets Beautiful Design"
+
+**Key Messages**
+1. **The Problem**: Fishing nets pollute our oceans (ghost fishing, marine harm)
+2. **Our Solution**: Bahraini youth transforming waste into products
+3. **The Impact**: Each purchase = cleaner seas + sustainable living
+4. **The Products**: Beautiful, meaningful, eco-conscious items
+5. **Join the Movement**: Be part of ocean protection
+
+**Storytelling Elements**
+- Origin story: Founded by Bahraini youth who saw a problem and created a solution
+- The journey: From discarded nets → cleaning → transformation → beautiful products
+- Impact metrics: Nets collected, ocean area cleaned, marine life protected
+- Community: Local artisans, youth involvement, customer stories
+
+### Content Tone
+
+**Do's**
+✓ Be genuine and transparent about the process
+✓ Celebrate small wins and incremental impact
+✓ Show the texture and reality of the work
+✓ Honor Bahraini coastal heritage
+✓ Use ocean and coastal metaphors naturally
+✓ Invite people to be part of the solution
+
+**Don'ts**
+✗ Guilt-trip or shame consumers
+✗ Overcomplicate the sustainability message
+✗ Use corporate jargon or greenwashing language
+✗ Be preachy or self-righteous
+✗ Ignore the beauty of the products for the mission alone
+
+---
+
+## LANDING PAGE SPECIFIC GUIDANCE
+
+### Emotional Journey (Single-Page Scroll)
+
+**Section 1: Arrival** (Hero)
+- Immediate impact: Ocean visual + powerful headline
+- Feeling: Awe, curiosity, connection to ocean
+
+**Section 2: Discovery** (Problem + Mission)
+- Reveal the issue with empathy, not fear
+- Feeling: Understanding, concern, but also hope
+
+**Section 3: Transformation** (The Process)
+- Show the journey from waste to product
+- Feeling: Wonder, appreciation, inspiration
+
+**Section 4: Impact** (Products + Story)
+- Display products with their ocean connection
+- Feeling: Desire, purpose, pride in choosing consciously
+
+**Section 5: Action** (CTA + Community)
+- Clear path to participate (shop, learn, share)
+- Feeling: Empowerment, belonging, momentum
+
+### Layout Philosophy
+
+**Spatial Rhythm**
+- Alternate between full-width immersive sections and contained content
+- Use negative space like ocean horizons (vast, calming, directional)
+- Let content "float" on the page like items on water
+- Section breaks should feel like gentle waves, not hard lines
+
+**Visual Hierarchy**
+- Typography as landscape: Large headings are horizons, body text is detail
+- Images as windows: Frame product/ocean shots like looking through portholes
+- CTAs as anchors: Solid, grounded, purposeful placement
+
+**Texture Integration**
+- Subtle net pattern overlays on section backgrounds (10-15% opacity)
+- Sand texture on footer or lighter sections
+- Wave dividers between sections
+- Rope-line accents for borders or separators
+
+---
+
+## DESIGN IMPLEMENTATION NOTES
+
+**Grid System**
+- Fluid, not rigid—like water finding its path
+- Asymmetrical layouts that feel organic
+- Breaking the grid intentionally for visual interest (nets don't align perfectly)
+
+**Spacing**
+- Generous margins (80-120px on desktop)
+- Vertical rhythm that breathes (1.5-2x element height as spacing)
+- Compact mobile spacing but maintain breathing room
+
+**Responsive Behavior**
+- Desktop: Horizontal flow like ocean panoramas
+- Tablet: Balanced between immersion and readability
+- Mobile: Vertical storytelling like diving into the ocean depths
+
+**Accessibility**
+- High contrast between cyan and white/dark backgrounds
+- Readable font sizes (16px minimum for body)
+- Alt text describing ocean context in images
+- Keyboard navigation flows like swimming through content
+
+---
+
+## COMPETITIVE DIFFERENTIATION
+
+**What Makes Ghazl Unique**
+- Bahraini roots (local pride, Gulf connection)
+- Youth-led (energy, innovation, future-focused)
+- Specific material (fishing nets, not generic ocean plastic)
+- Tangible products (you can hold the transformation)
+- Community-driven (not corporate greenwashing)
+
+**Design Should Reflect**
+- Authenticity over polish
+- Process over perfection
+- Impact over aesthetic alone
+- Local character over global generic
+- Handcrafted feel in digital space
+
+---
+
+## CALL-TO-ACTION LANGUAGE
+
+**Primary CTAs**
+- "Explore the Collection"
+- "Transform Ocean Waste with Us"
+- "Shop with Purpose"
+- "Join the Movement"
+- "See Our Impact"
+
+**Secondary CTAs**
+- "Learn Our Story"
+- "Follow the Journey"
+- "Read About Our Process"
+- "Support Clean Oceans"
+- "Discover More"
+
+**Tone**: Action-oriented but inviting, not demanding
+
+---
+
+## FINAL NOTES FOR DESIGNERS
+
+This is not just a landing page—it's a digital extension of the ocean itself. Every scroll should feel like moving through water, every interaction like touching the transformed nets, every visual like standing on a Bahraini beach at sunrise. 
+
+The design should make visitors feel:
+1. **Connected** to the ocean and its challenges
+2. **Inspired** by the transformation process
+3. **Empowered** to make a difference
+4. **Proud** to support local innovation
+5. **Moved** to take action
+
+Remember: Ghazl is where environmental responsibility meets beautiful design, where youth innovation meets ancient oceans, where discarded nets become treasured items. The landing page should embody this transformation in every pixel.
+
+---
+
+**Last Updated**: January 2026  
+**Version**: 1.0  
+**Contact**: ghazl.bh
